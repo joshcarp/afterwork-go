@@ -1,0 +1,17 @@
+name: Test Suites
+on:
+  push:
+
+jobs:
+  unit-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 1
+      - name: Run coverage tool
+        uses: anz-bank/go-acc@v0.8.0
+        with:
+          soft_target: 90
+          hard_target: 80
