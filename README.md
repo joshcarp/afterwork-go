@@ -6,8 +6,7 @@ Repo originally forked from [anz-bank/go-course](https://github.com/anz-bank/go-
 
 ## Prerequisites
 
--   Install `go 1.12` according to [official installation instruction](https://golang.org/doc/install)
--   Clone this project outside your `$GOPATH` to enable [Go Modules](https://github.com/golang/go/wiki/Modules)
+-   Install `go 1.15` according to [official installation instruction](https://golang.org/doc/install)
 -   Install `golangci-lint` according to [instructions](https://github.com/golangci/golangci-lint#local-installation)
 
 ## Build, execute, test, lint
@@ -39,7 +38,7 @@ Review coverage with
     -   Build
     -   Test
     -   Lint
-    -   Have 100% test coverage
+    -   Have above 80% test coverage
 -   Ensure [good commit messages](https://chris.beams.io/posts/git-commit/)
     -   Separate subject from body with a blank line
     -   Limit the subject line to 60 characters
@@ -48,7 +47,6 @@ Review coverage with
     -   Wrap the body at 80 characters
     -   Use the body to explain what and why vs. how
     -   Use `git rebase -i COMMIT_HASH` to rework your commits if necessary
--   Fill in PR description and reference an Issue for instance with `#6`
 -   Review the "Files changed" section of your PR
 -   "Think of the reviewer: your code needs to be reviewable and that should be a prime concern when writing your code, commits and PRs." (@camh-anz)
 -   Review a colleague's PR and add a link to the review in your own PR description
