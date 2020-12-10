@@ -15,3 +15,4 @@ jobs:
         with:
           soft_target: 90
           hard_target: 80
+          ignore: 00_hello_world
