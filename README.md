@@ -13,11 +13,11 @@ Repo originally forked from [anz-bank/go-course](https://github.com/anz-bank/go-
 
 Run the hello-world sample with
 
-    go run 00_hello_world/juliaogris/main.go
+    go run 00_hello_world/main.go
 
 Alternative build and execute a binary with
 
-    go build -o hello_world ./00_hello_world/juliaogris
+    go build -o hello_world ./00_hello_world
     ./hello_world
 
 Test it with
