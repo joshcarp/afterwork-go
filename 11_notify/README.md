@@ -1,6 +1,6 @@
 # Lab 11 - Puppy Notifications
 
-- Create directory `11_notify/USERNAME` containing a copy of upstream master `10_rest/USERNAME`
+- Create directory `11_notify/USERNAME` containing a copy of upstream main `10_rest/USERNAME`
 - Create `cmd/lostpuppy-service/main.go` running single endpoint:
 ```
 POST   /api/lostpuppy/          Payload: { id: PUPPY_ID }

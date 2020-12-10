@@ -1,6 +1,6 @@
 # Lab 10 - Puppy REST
 
-- Create directory `10_rest/USERNAME` containing a copy of upstream master `09_json/USERNAME`
+- Create directory `10_rest/USERNAME` containing a copy of upstream main `09_json/USERNAME`
 - Add file `pkg/puppy/rest.go` implementing:
 
 ```

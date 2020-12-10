@@ -91,7 +91,7 @@ Call `fmt.Println(numeronyms("accessibility", "Kubernetes", "abc"))` in `main` t
 
 # Lab 6 - CRUD puppy with interface
 
-- Create an executable go program in directory `06_puppy/USERNAME` (see [hints](https://github.com/anz-bank/go-samplerest/blob/master/pkg/pet/types.go))
+- Create an executable go program in directory `06_puppy/USERNAME` (see [hints](https://github.com/anz-bank/go-samplerest/blob/main/pkg/pet/types.go))
 - Implement a `Puppy` struct containing `ID`, `Breed`, `Colour`, `Value`
 - Create `Storer` interface with [crud](https://en.wikipedia.org/wiki/Create,\_read,\_update_and_delete) methods for `Puppy`
 - Write a `MapStore` implementation of `Storer` backed by a `map`
@@ -102,7 +102,7 @@ Call `fmt.Println(numeronyms("accessibility", "Kubernetes", "abc"))` in `main` t
 # Lab 7 - Errors
 
 - Create an executable go program in directory `07_errors/USERNAME`
-- Copy the CRUD puppy from upstream master `06_puppy/USERNAME`
+- Copy the CRUD puppy from upstream main `06_puppy/USERNAME`
 - Add a custom error type `Error` with fields `Message` and `Code`
 - Extend the `Storer` interface for all methods to also return `error`
 - Create errors for:
@@ -115,7 +115,7 @@ Call `fmt.Println(numeronyms("accessibility", "Kubernetes", "abc"))` in `main` t
 
 # Lab 8 - Project Layout
 
-- Copy the CRUD puppy from upstream master `07_errors/USERNAME`
+- Copy the CRUD puppy from upstream main `07_errors/USERNAME`
 - Create directory `08_project/USERNAME` containing
 
 ```
@@ -138,7 +138,7 @@ Add project introduction and how to build, run & test it to `README.md`
 
 # Lab 9 - JSON puppy
 
-- Create directory `09_json/USERNAME` containing a copy of upstream master `08_project/USERNAME`
+- Create directory `09_json/USERNAME` containing a copy of upstream main `08_project/USERNAME`
 - Add JSON tags to puppy data type
 - Test marshalling and unmarshalling using [require.JSONEq](https://godoc.org/github.com/stretchr/testify/require#JSONEq)
 - Add command line flag `-d FILE` with long form `--data FILE` using [kingpin.v2](https://godoc.org/gopkg.in/alecthomas/kingpin.v2)
@@ -146,7 +146,7 @@ Add project introduction and how to build, run & test it to `README.md`
 
 # Lab 10 - Puppy REST
 
-- Create directory `10_rest/USERNAME` containing a copy of upstream master `09_json/USERNAME`
+- Create directory `10_rest/USERNAME` containing a copy of upstream main `09_json/USERNAME`
 - Add file `pkg/puppy/rest.go` implementing:
 
 ```
@@ -167,7 +167,7 @@ Document the API in README.md
 
 # Lab 11 - Puppy Notifications
 
-- Create directory `11_notify/USERNAME` containing a copy of upstream master `10_rest/USERNAME`
+- Create directory `11_notify/USERNAME` containing a copy of upstream main `10_rest/USERNAME`
 - Create `cmd/lostpuppy-service/main.go` running single endpoint:
 ```
 POST   /api/lostpuppy/          Payload: { id: PUPPY_ID }

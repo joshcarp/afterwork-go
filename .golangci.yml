@@ -1,8 +1,37 @@
 service:
   golangci-lint-version: 1.18.0
 linters:
-  enable-all: true
-  disable:
-    - gochecknoglobals
+  disable-all: true
+  enable:
+    - deadcode
+    - depguard
     - dupl
-    - funlen
+    - errcheck
+    - gochecknoinits
+    - goconst
+    - gocritic
+    - gocyclo
+    - gofmt
+    - goimports
+    - gosec
+    - gosimple
+    - govet
+    - ineffassign
+    - interfacer
+    - misspell
+    - nakedret
+    - scopelint
+    - staticcheck
+    - structcheck
+    - typecheck
+    - unconvert
+    - unparam
+    - unused
+    - varcheck
+    - maligned
+    - prealloc
+    - golint
+    - stylecheck
+    - godox
+    - gochecknoglobals
+    - gocognit

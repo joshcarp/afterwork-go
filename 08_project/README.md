@@ -1,6 +1,6 @@
 # Lab 8 - Project Layout
 
-- Copy the CRUD puppy from upstream master `07_errors/USERNAME`
+- Copy the CRUD puppy from upstream main `07_errors/USERNAME`
 - Create directory `08_project/USERNAME` containing
 
 ```

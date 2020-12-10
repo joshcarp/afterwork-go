@@ -1,7 +1,7 @@
 # Lab 7 - Errors
 
 - Create an executable go program in directory `07_errors/USERNAME`
-- Copy the CRUD puppy from upstream master `06_puppy/USERNAME`
+- Copy the CRUD puppy from upstream main `06_puppy/USERNAME`
 - Add a custom error type `Error` with fields `Message` and `Code`
 - Extend the `Storer` interface for all methods to also return `error`
 - Create errors for:
