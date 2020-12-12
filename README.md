@@ -4,8 +4,11 @@
 
 Repo originally forked from [anz-bank/go-course](https://github.com/joshcarp/afterwork-go)
 ## Instructions
-In each directory there is a problem to solve. Most questions will ask for specific function signatures, but don't be afraid to change anything to become more testable.
-
+- In each directory there is a problem to solve. 
+- Most questions will ask for specific function signatures, but don't be afraid to change anything to become more testable.
+- One PR should contain __ONLY__ one solution.
+- Required status checks on linting actions and testing actions, with test coverage above 90% of code lines required.
+- If you think there could be an improvement in instructions, or if you think there are good resources for a specific problem, feel free to open a PR.
 
 ## Prerequisites
 
