@@ -14,7 +14,7 @@ jobs:
         with:
           fetch-depth: 1
       - name: Run coverage tool
-        uses: anz-bank/go-acc@v0.8.0
+        uses: anz-bank/go-acc@v0.9.0
         with:
           soft_target: 90
           hard_target: 80
