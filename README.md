@@ -2,7 +2,7 @@
 
 [Go Course](http://go-course.org) lab assignments repository.
 
-Repo originally forked from [anz-bank/go-course](https://github.com/anz-bank/go-course)
+Repo originally forked from [anz-bank/go-course](https://github.com/joshcarp/afterwork-go)
 
 ## Prerequisites
 

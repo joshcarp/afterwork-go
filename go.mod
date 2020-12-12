@@ -1,4 +1,4 @@
-module github.com/anz-bank/go-course
+module github.com/joshcarp/afterwork-go
 
 go 1.15
 
