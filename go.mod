@@ -1,4 +1,4 @@
-module github.com/joshcarp/afterwork-go
+module github.com/anzx/go-course
 
 go 1.15
 

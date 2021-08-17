@@ -2,7 +2,7 @@
 
 [Go Course](http://go-course.org) lab assignments repository.
 
-Repo originally forked from [anz-bank/go-course](https://github.com/joshcarp/afterwork-go)
+Repo originally forked from [anz-bank/go-course](https://github.com/anzx/go-course)
 ## Instructions
 - In each directory there is a problem to solve. 
 - Most questions will ask for specific function signatures, but don't be afraid to change anything to become more testable.
